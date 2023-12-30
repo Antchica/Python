@@ -1,3 +1,5 @@
+**Gráficos de Líneas y Marcos**
+
 Empezamos cargando las librerías necesarias
 ``` python
 import matplotlib.pyplot as plt
@@ -27,4 +29,6 @@ for i in range(1, 5):
   ax = fig.add_subplot(2, 2, i)
 ```
 ![Varios-Marcos](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
+
+**EJEMPLO**
 
