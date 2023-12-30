@@ -87,5 +87,6 @@ fig;
 ax.legend(loc='center right')
 fig
 ```
-![Gráfico de Líneas con Leyenda (https://github.com/Antchica/Python/blob/main/Imagenes/Grafico%20de%20Lineas%20con%20leyenda.png)
+
+![Gráfico de Líneas con Leyenda ](https://github.com/Antchica/Python/blob/main/Imagenes/Grafico%20de%20Lineas%20con%20leyenda.png)
 
