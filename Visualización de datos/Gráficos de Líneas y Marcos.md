@@ -47,5 +47,11 @@ ax.set_title('Gráfico de la Función Y')
 
 #Gráfico
 ax.plot(x, y);
+# Nombre para los ejes
+ax.set_xlabel('Etiqueta para el eje X')
+ax.set_ylabel('Etiqueta para el eje Y')
+fig
 ```
 ![Gráfico Función Y](https://github.com/Antchica/Python/blob/main/Imagenes/Gr%C3%A1fico%20funci%C3%B3n%20Y.png)
+
+
