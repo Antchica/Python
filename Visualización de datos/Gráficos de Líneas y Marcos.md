@@ -87,3 +87,4 @@ fig;
 ax.legend(loc='center right')
 fig
 ```
+![Gráfico de Líneas con Leyenda](https://github.com/Antchica/Python/blob/main/Imagenes/Multiples%20Funciones.png)
