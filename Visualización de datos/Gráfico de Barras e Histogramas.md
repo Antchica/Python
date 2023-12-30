@@ -22,7 +22,7 @@ plt.show()
 ```
 ![Gráfico de Barras](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20barras.png)
 
-## Título del gráfico y etiquetas para cada barra
+### Título del gráfico y etiquetas para cada barra
 ```python
 # Título
 ax.set_title('Gráfico de barras')
@@ -51,7 +51,7 @@ plt.show()
 ```
 ![Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Histograma.png)
 
-## Estilo
+### Estilo
 ```python
 # Modificando el estilo:
 
@@ -65,3 +65,31 @@ ax.hist(x, bins=14, rwidth=0.95, color='deeppink', alpha=0.2)
 plt.show()
 ```
 ![Estilo de Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Estilo%20de%20histograma.png)
+
+## Histogramas Múltiples
+```python
+# Datos
+n = 5000
+
+mean_mu1 = 60
+sd_sigma1 = 15
+data1 = np.random.normal(mean_mu1, sd_sigma1, n)
+
+mean_mu2 = 80
+sd_sigma2 = 15
+data2 = np.random.normal(mean_mu2, sd_sigma2, n)
+```
+
+```python
+plt.figure(figsize=(8,6))
+
+plt.hist(data1, bins=100, alpha=0.5, label="data1")
+plt.hist(data2, bins=100, alpha=0.5, label="data2")
+
+plt.xlabel("Data", size=14)
+plt.ylabel("Count", size=14)
+plt.title("Multiple Histograms with Matplotlib")
+plt.legend(loc='upper right')
+
+plt.show()
+```
