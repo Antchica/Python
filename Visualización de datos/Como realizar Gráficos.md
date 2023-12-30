@@ -26,5 +26,5 @@ fig = plt.figure()
 for i in range(1, 5):
   ax = fig.add_subplot(2, 2, i)
 ```
-![Varios-Marcos](https://github.com/Antchica/Python/blob/main/Imagenes/Marco-con-titulo.png)
+![Varios-Marcos](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
 
