@@ -108,3 +108,32 @@ fig;
 ```
 
 ![Estilos de Líneas ](https://github.com/Antchica/Python/blob/main/Imagenes/Estilos.png)
+
+## Anotaciones
+Añadiremos anotaciones en los puntos de intersección donde sin(x)=cos(x). Incluiremos una flecha con una etiqueta, las coordenadas de la solución y la proyección del punto hacia ambos ejes. 
+Para ello calculamos en primer lugar el punto de corte
+```python
+xsol = np.pi / 4 + np.pi * 0
+ysol = np.sin(xsol)
+xsol, ysol
+
+# Figura
+fig, ax = plt.subplots()
+ax.plot(x, sin, label='$f_1(x) = sin(x)$')
+ax.plot(x, cos, label='$f_2(x) = cos(x)$')
+ax.set_xlim(0, np.pi / 2)
+ax.set_ylim(0, 1)
+
+# Para añadir la Flecha 
+ax.annotate('$sin(x) = cos(x)$',
+            xy=(xsol, ysol),
+            xytext=(1.2, 0.8),
+            arrowprops=dict(facecolor='black', shrink=0.05))
+
+# Texto indicando posición donde lo queramos y el punto de corte '(0.79, 0.71)':
+ax.text(0.5, 0.75, '(0.79, 0.71)')
+
+ax.plot([xsol, xsol], [0, ysol], color='gray', linestyle='--')
+ax.plot([0, xsol], [ysol, ysol], color='gray', linestyle='--')
+```
+
