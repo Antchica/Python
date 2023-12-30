@@ -18,4 +18,5 @@ ax = fig.add_subplot(1,1,1) #nrows, ncols, index
 ax.set_title('Aquí va el título')
 fig
 ```
-![Marco con título](C:\Users\antch\OneDrive\Escritorio)
+![Marco con título](https://github.com/Antchica/Python/blob/main/Imagenes/Marco-con-titulo.png)
+
