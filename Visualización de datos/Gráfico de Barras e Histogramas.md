@@ -1,4 +1,4 @@
-# Gráfico de Barras e Histogramas
+# Gráfico de Barras, Histogramas e Histogramas Múltiples
 - Los **gráficos de barras** son útiles para representar datos discretos o categóricos y comparar cantidades entre categorías diferentes.
 - Los **histogramas** se utilizan para visualizar la distribución y la frecuencia de datos continuos, mostrando la concentración y la forma de la distribución.
 
@@ -50,3 +50,18 @@ ax.hist(x, bins=8, linewidth=0.5, edgecolor="white") # bins son la cantidad de b
 plt.show()
 ```
 ![Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Histograma.png)
+
+## Estilo
+```python
+# Modificando el estilo:
+
+# bins: intervalos de agrupación
+# rwidth: ancho de cada barra
+# color: color
+# alpha: transparencia
+
+fig, ax = plt.subplots(figsize=(15, 8))
+ax.hist(x, bins=14, rwidth=0.95, color='deeppink', alpha=0.2)
+plt.show()
+```
+![Estilo de Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Histograma.png)
