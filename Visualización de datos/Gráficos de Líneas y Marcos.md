@@ -31,5 +31,20 @@ for i in range(1, 5):
 ![Varios-Marcos](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
 
 **EJEMPLO**
+Generamos un conjunto de datos con 100 números distribuidos de 0 a 100 y creamos una función 'Y' que será el seno de 2 multiplicado por los valores de 'X'.
+```python
+x = np.linspace(0, 10, 100)
+y = np.sin(2 * x)
 
+# Figura
+fig = plt.figure()
 
+# Marco
+ax = fig.add_subplot(1,1,1) #nrows, ncols, index
+
+#Título
+ax.set_title('Gráfico de la Función Y')
+
+#Gráfico
+ax.plot(x, y);
+```
