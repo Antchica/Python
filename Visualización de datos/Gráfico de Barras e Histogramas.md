@@ -18,5 +18,7 @@ ax.bar(x, y, width=1,edgecolor="white", linewidth=0.7)
 
 print('x:', x)
 print('y:', y)
+```
+![Gráfico de Barras](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
 plt.show()
 ```
