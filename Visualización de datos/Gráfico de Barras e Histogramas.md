@@ -30,7 +30,23 @@ ax.set_title('Gráfico de barras')
 # Etiqueta en cada barra
 xlabels=['1ra categoria', '2da categoria','3ra categoria','4ta categoria','5ta categoria']
 ax.set_xticks(x)
-ax.set_xticklabels(xlabels, rotation=90)
+ax.set_xticklabels(xlabels, rotation=90) #rotation para girar las categorías en vertical
 fig
 ```
 ![Gráfico de Barras con título y etiquetas](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20Barras%20con%20título%20y%20etiquetas.png)
+
+## Histogramas
+Para crear el histograma volvemos a crear unos datos aleatorios
+```python
+# Datos
+x = 4 + np.random.normal(0, 1.5, 200)
+
+# Figura
+fig, ax = plt.subplots()
+
+# Histograma
+ax.hist(x, bins=8, linewidth=0.5, edgecolor="white") # bins son la cantidad de barras
+
+plt.show()
+```
+![Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20Barras%20con%20título%20y%20etiquetas.png)
