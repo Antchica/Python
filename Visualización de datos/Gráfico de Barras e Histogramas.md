@@ -33,4 +33,4 @@ ax.set_xticks(x)
 ax.set_xticklabels(xlabels, rotation=90)
 fig
 ```
-![Gráfico de Barras con título y etiquetas](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20barras.png)
+![Gráfico de Barras con título y etiquetas](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20Barras%20con%20título%20y%20etiquetas.png)
