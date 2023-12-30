@@ -69,26 +69,32 @@ plt.show()
 ## Histogramas Múltiples
 ```python
 # Datos
+#Tamaño muestral
 n = 5000
-
+#Parámetros de la distribución normal de la primera muestra (media y desviación típica)
 mean_mu1 = 60
 sd_sigma1 = 15
 data1 = np.random.normal(mean_mu1, sd_sigma1, n)
 
+#Parámetros de la distribución normal de la segunda muestra (media y desviación típica)
 mean_mu2 = 80
 sd_sigma2 = 15
 data2 = np.random.normal(mean_mu2, sd_sigma2, n)
 ```
 
 ```python
+#Creamos la figura
 plt.figure(figsize=(8,6))
 
+#Creamos histrogramas para cada muestra
 plt.hist(data1, bins=100, alpha=0.5, label="data1")
 plt.hist(data2, bins=100, alpha=0.5, label="data2")
 
+#Títulos y etiquetas de los ejes
 plt.xlabel("Data", size=14)
 plt.ylabel("Count", size=14)
 plt.title("Multiple Histograms with Matplotlib")
+#Leyenda
 plt.legend(loc='upper right')
 
 plt.show()
