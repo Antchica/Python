@@ -75,3 +75,15 @@ ax.plot(x, cos);
 ```
 ![Múltiples Funciones](https://github.com/Antchica/Python/blob/main/Imagenes/Multiples%20Funciones.png)
 
+```python
+# Añadir una leyenda
+fig, ax = plt.subplots()
+ax.plot(x, sin, label='sin')
+ax.plot(x, cos, label='cos')
+ax.legend()
+fig;
+
+# Ubicación de la leyenda
+ax.legend(loc='center right')
+fig
+```
