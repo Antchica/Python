@@ -10,6 +10,7 @@ $ pip install matplotlib
 ```
 
 **SEABORN**
+
 Es una librería de visualización de datos de Python basada en Matplotlib.
 Proporciona una interfaz de alto nivel para dibujar gráficos estadísticos atractivos e informativos.
 
