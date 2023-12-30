@@ -30,7 +30,8 @@ for i in range(1, 5):
 ```
 ![Varios-Marcos](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
 
-**EJEMPLO**
+## **EJEMPLO**
+
 Generamos un conjunto de datos con 100 números distribuidos de 0 a 100 y creamos una función 'Y' que será el seno de 2 multiplicado por los valores de 'X'.
 ```python
 x = np.linspace(0, 10, 100)
@@ -50,6 +51,10 @@ ax.plot(x, y);
 # Nombre para los ejes
 ax.set_xlabel('Etiqueta para el eje X')
 ax.set_ylabel('Etiqueta para el eje Y')
+fig
+
+# Grid
+ax.grid(True)
 fig
 ```
 ![Gráfico Función Y](https://github.com/Antchica/Python/blob/main/Imagenes/Gr%C3%A1fico%20funci%C3%B3n%20Y.png)
