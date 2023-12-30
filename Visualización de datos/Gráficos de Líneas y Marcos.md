@@ -59,4 +59,17 @@ fig
 ```
 ![Gráfico Función Y](https://github.com/Antchica/Python/blob/main/Imagenes/Gr%C3%A1fico%20funci%C3%B3n%20Y.png)
 
+**MULTIPLES FUNCIONES**
+```python
+# Datos
+x = np.linspace(0, 2 * np.pi)
+sin = np.sin(x)
+cos = np.cos(x)
 
+# Figura y Marco
+fig, ax = plt.subplots()
+
+#Gráficos
+ax.plot(x, sin)
+ax.plot(x, cos);
+```
