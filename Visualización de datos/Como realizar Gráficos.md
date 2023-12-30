@@ -20,3 +20,11 @@ fig
 ```
 ![Marco con título](https://github.com/Antchica/Python/blob/main/Imagenes/Marco-con-titulo.png)
 
+4. Generar varios marcos en una misma figura
+```python
+fig = plt.figure()
+for i in range(1, 5):
+  ax = fig.add_subplot(2, 2, i)
+```
+![Varios-Marcos](https://github.com/Antchica/Python/blob/main/Imagenes/Marco-con-titulo.png)
+
