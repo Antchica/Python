@@ -13,4 +13,4 @@ En este repositorio encontrarás notebooks con ejemplos de código para crear vi
     - Ploty 
  ```
 
-# ¡Por favor, dame un ⭐️ si te gusta y utilizas este proyecto! 👏
+
