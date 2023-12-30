@@ -93,3 +93,4 @@ plt.legend(loc='upper right')
 
 plt.show()
 ```
+![Histograma Múltiple](https://github.com/Antchica/Python/blob/main/Imagenes/Histograma%20múltiple.png)
