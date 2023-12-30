@@ -94,6 +94,7 @@ plt.hist(data2, bins=100, alpha=0.5, label="data2")
 plt.xlabel("Data", size=14)
 plt.ylabel("Count", size=14)
 plt.title("Multiple Histograms with Matplotlib")
+
 #Leyenda
 plt.legend(loc='upper right')
 
