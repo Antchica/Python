@@ -91,7 +91,7 @@ fig
 ![Gráfico de Líneas con Leyenda ](https://github.com/Antchica/Python/blob/main/Imagenes/Grafico%20de%20Lineas%20con%20leyenda.png)
 
 ## Estilos
-Podemos asignar diferentes estilos, es decir, cambiar el estilo de las letras,el marcador, el tipo de línea, los colores, etc. Con __linewidth__ cambiamos el grosor de la línea, con __marker__ para poner diferentes marcadores
+Podemos aplicar diversos estilos, como modificar la tipografía, el marcador, el grosor de la línea y los colores. Utilizamos linewidth para ajustar el grosor de la línea y marker para seleccionar diferentes tipos de marcadores.
 
 ```python
 fig, ax = plt.subplots()
@@ -106,4 +106,5 @@ ax.legend()
 
 fig;
 ```
-![Estilos de Líneas ](https://github.com/Antchica/Python/blob/main/Imagenes/Grafico%20de%20Lineas%20con%20leyenda.png)
+
+![Estilos de Líneas ](https://github.com/Antchica/Python/blob/main/Imagenes/Estilos.png)
