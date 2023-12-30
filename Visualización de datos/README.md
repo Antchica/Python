@@ -6,7 +6,7 @@
 5. Gráficos de dispersión y correlaciones
 
 
-Este repositorio contiene notebooks con código de ejemplo para realizar visualizaciones de datos utilizando las librerías: 
+En este repositorio encontrarás notebooks con ejemplos de código para crear visualizaciones de datos utilizando las siguientes librerías:
 
 ```python
     - Matplotlib
