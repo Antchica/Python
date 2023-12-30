@@ -136,4 +136,4 @@ ax.text(0.5, 0.75, '(0.79, 0.71)')
 ax.plot([xsol, xsol], [0, ysol], color='gray', linestyle='--')
 ax.plot([0, xsol], [ysol, ysol], color='gray', linestyle='--')
 ```
-
+![Puntos de corte ](https://github.com/Antchica/Python/blob/main/Imagenes/Punto%20de%20corte.png)
