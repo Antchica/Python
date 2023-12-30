@@ -64,4 +64,4 @@ fig, ax = plt.subplots(figsize=(15, 8))
 ax.hist(x, bins=14, rwidth=0.95, color='deeppink', alpha=0.2)
 plt.show()
 ```
-![Estilo de Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Histograma.png)
+![Estilo de Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Estilo%20de%20histograma.png)
