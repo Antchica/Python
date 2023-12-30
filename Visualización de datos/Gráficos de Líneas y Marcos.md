@@ -1,4 +1,4 @@
-**Gráficos de Líneas y Marcos**
+# Gráficos de Líneas y Marcos
 
 Empezamos cargando las librerías necesarias
 ``` python
