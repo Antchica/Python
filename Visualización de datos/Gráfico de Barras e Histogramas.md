@@ -14,7 +14,7 @@ fig, ax = plt.subplots(figsize=(8, 5))
 ```
 Al gráfico de barras de las variables x e y, le podemos añadir otros parámetros opcionales como el grosor de las barras, el color de la línea de las barras
 ```python
-ax.bar(x, y, width=1,edgecolor="white", linewidth=0.7)   
+ax.bar(x, y, width=1,edgecolor="black", linewidth=0.7)   
 
 print('x:', x)
 print('y:', y)
