@@ -48,4 +48,4 @@ ax.set_title('Gráfico de la Función Y')
 #Gráfico
 ax.plot(x, y);
 ```
-![Gráfico Función Y](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
+![Gráfico Función Y](https://github.com/Antchica/Python/blob/main/Imagenes/Gr%C3%A1fico%20funci%C3%B3n%20Y.png)
