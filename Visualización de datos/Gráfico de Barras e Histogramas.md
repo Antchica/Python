@@ -49,4 +49,4 @@ ax.hist(x, bins=8, linewidth=0.5, edgecolor="white") # bins son la cantidad de b
 
 plt.show()
 ```
-![Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20Barras%20con%20título%20y%20etiquetas.png)
+![Histograma](https://github.com/Antchica/Python/blob/main/Imagenes/Histograma.png)
