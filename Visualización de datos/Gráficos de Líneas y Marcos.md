@@ -1,4 +1,5 @@
 # Gráficos de Líneas y Marcos
+- Los **gráficos de líneas** son eficaces para mostrar relaciones, tendencias y cambios en datos a lo largo de un eje temporal o continuo, lo que los convierte en una herramienta valiosa para analizar y comprender la evolución de variables a lo largo del tiempo.
 
 Empezamos cargando las librerías necesarias
 ``` python
