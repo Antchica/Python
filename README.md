@@ -3,5 +3,4 @@
 
 **Visualización de datos**:
 
-
-Para la visualización de datos usaremos librerías como **Matplotlib** y **Seaborn**
+- Dentro de esta carpeta encontrarás como instalar e importar las librerías de visualización como **Matplotlib** y **Seaborn** . Así como los pasos a seguir para crear diferentes gráficos
