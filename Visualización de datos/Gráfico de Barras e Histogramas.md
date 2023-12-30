@@ -18,7 +18,19 @@ ax.bar(x, y, width=1,edgecolor="white", linewidth=0.7)
 
 print('x:', x)
 print('y:', y)
-```
-![Gráfico de Barras](https://github.com/Antchica/Python/blob/main/Imagenes/Varios-marcos.png)
 plt.show()
 ```
+![Gráfico de Barras](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20barras.png)
+
+## Título del gráfico y etiquetas para cada barra
+```python
+# Título
+ax.set_title('Gráfico de barras')
+
+# Etiqueta en cada barra
+xlabels=['1ra categoria', '2da categoria','3ra categoria','4ta categoria','5ta categoria']
+ax.set_xticks(x)
+ax.set_xticklabels(xlabels, rotation=90)
+fig
+```
+![Gráfico de Barras con título y etiquetas](https://github.com/Antchica/Python/blob/main/Imagenes/Gráfico%20de%20barras.png)
