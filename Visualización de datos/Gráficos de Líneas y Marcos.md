@@ -59,7 +59,7 @@ fig
 ```
 ![Gráfico Función Y](https://github.com/Antchica/Python/blob/main/Imagenes/Gr%C3%A1fico%20funci%C3%B3n%20Y.png)
 
-**MULTIPLES FUNCIONES**
+## MULTIPLES FUNCIONES
 ```python
 # Datos
 x = np.linspace(0, 2 * np.pi)
@@ -90,3 +90,20 @@ fig
 
 ![Gráfico de Líneas con Leyenda ](https://github.com/Antchica/Python/blob/main/Imagenes/Grafico%20de%20Lineas%20con%20leyenda.png)
 
+## Estilos
+Podemos asignar diferentes estilos, es decir, cambiar el estilo de las letras,el marcador, el tipo de línea, los colores, etc. Con __linewidth__ cambiamos el grosor de la línea, con __marker__ para poner diferentes marcadores
+
+```python
+fig, ax = plt.subplots()
+
+sin_style = dict(linewidth=5, color='darkorange')
+cos_style = dict(marker='o', markerfacecolor='limegreen', color='darkgreen')
+
+ax.plot(x, sin, label='$f_1(x) = sin(x)$', **sin_style)
+ax.plot(x, cos, label='$f_2(x) = cos(x)$', **cos_style)
+
+ax.legend()
+
+fig;
+```
+![Estilos de Líneas ](https://github.com/Antchica/Python/blob/main/Imagenes/Grafico%20de%20Lineas%20con%20leyenda.png)
