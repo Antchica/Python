@@ -73,3 +73,5 @@ fig, ax = plt.subplots()
 ax.plot(x, sin)
 ax.plot(x, cos);
 ```
+![Múltiples Funciones](https://github.com/Antchica/Python/blob/main/Imagenes/Multiples%20Funciones.png)
+
